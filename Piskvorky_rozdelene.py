@@ -59,5 +59,3 @@ def piskvorky():
 
     else:
         print("Prohra")
-     
-piskvorky()
