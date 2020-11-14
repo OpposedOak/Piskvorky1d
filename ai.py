@@ -7,7 +7,7 @@ def tah_pocitace(pole,symbol_pocitace):
         
         pozice = rd.randrange(0,20,1)
         
-        if pole[pozice] != "o" or pole[pozice] != "x":
+        if pole[pozice] == "-" :
             return util.tah(pole, pozice, symbol_pocitace)
 
         else:
